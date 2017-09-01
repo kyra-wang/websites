@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS圆角折叠菜单</title>
+<style type="text/css">
+#menu {
+   font-size:12px;
+   height:380px;
+   margin:0; 
+   padding:0; 
+   width:180px;
+   overflow:hidden; 
+   background:#f0f0f0;
+   list-style:none;
+   border-left:1px solid #DDD; 
+   border-right:1px solid #DDD;
+}
+#menu li a {
+   display:block; 
+   text-decoration:none; 
+   color:#00b; 
+   margin:0; 
+   width:100%;
+   }
+#menu li a span {
+   display:none; 
+   color:#000;
+   height:120px
+   }
+#menu li a.one span {
+   display:block; 
+   margin:0 10px;
+}
+#menu li a:hover {
+   background:#f1f1f1;
+   }
+#menu li a:hover span {
+   display:block; 
+   margin:0 10px; 
+   cursor:pointer;
+}
+#menu .h2 {
+   margin:0 5px; 
+   padding:0; 
+   color:#808; 
+   font-variant:small-caps; 
+   border:0;
+   }
+#menu .h3 {
+   margin:0 5px; 
+   padding:0; 
+   color:#00b;
+   }
+.curved {
+   width:180px; 
+   margin:0 auto;
+   }
+.curved .b1, .curved .b2, .curved .b3, .curved .b4   {
+   font-size:1px; 
+   display:block; 
+   background:#88c;
+   overflow: hidden;
+   }
+.curved .b1, .curved .b2, .curved .b3 {
+   height:1px;
+}
+.curved .b2, .curved .b3, .curved .b4 {
+   background:#f0f0f0; 
+   border-left:1px solid #DDD; 
+   border-right:1px solid #DDD;
+   }
+.curved .b1 {
+   margin:0 4px; 
+   background:#DDD;
+   }
+.curved .b2 {
+   margin:0 2px; 
+   border-width:0 2px;
+   }
+.curved .b3 {
+   margin:0 1px;
+   }
+.curved .b4 { 
+   height:2px;
+   margin:0px;
+   }
+</style> 
+</head>
+<body>
+<div class="curved">
+    <b class="b1 c1"></b>
+    <b class="b2 c2"></b>
+    <b class="b3 c3"></b>
+    <b class="b4 c4" ></b>
+   <ul id="menu">
+     <li>
+      <a href="/"><b class="h2">ASP CODE</b><br /><span>阿里西西</span></a>
+     </li>
+     <li>
+      <a href="#nogo">
+       <b class="b1"></b>
+       <b class="b2"></b>
+       <b class="h2">PHP CODE</b><br />
+       <span>网页特效</span>
+      </a>
+     </li>
+     <li>
+      <a href="#nogo">
+		<b class="b1"></b>
+		<b class="b2"></b>
+		<b class="h2">JSP CODE</b><br />
+		<span>js.alixixi.com</span> 
+     </a>
+     </li>
+ </ul><b class="b4"></b><b class="b3"></b><b class="b2"></b><b class="b1"></b></div>
+<body>
+</body>
+</html>
