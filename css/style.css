@@ -5,6 +5,7 @@ ul{list-style:none;}
 .navbar-inverse .navbar-nav>li>a{color:#FFFFFF;}
 .navbar-inverse .navbar-nav>li>a:hover{color:#43c8f5;}
 .bannerdown{background:#44cbf9;color:#fff;}
+.bannerdown img{margin-right:10px;}
 /*main*/
 .box{padding:30px 0px;}
 .box1{padding:20px;}
@@ -12,10 +13,37 @@ ul{list-style:none;}
 .box3{padding-top:5%}
 .word{word-wrap:break-word; }
 .mainbg{background:#f5f5f5;}
-div.hover1{position:absolute;top:1%;left:5%;width:90%;height:93%;opacity: 0;filter: alpha(opacity=0);}
+div.hover1{position:absolute;top:1%;left:5%;width:90%;height:93%;opacity: 0;filter: alpha(opacity=0);cursor:pointer;}
 div.hover1:hover{background:#44cbf9;opacity: 0.9;filter: alpha(opacity=90);color:#000;}
+/*联系我们样式*/
+.contactbg{background:#44CBF9;color:#fff;font-size:1em;}
+h1.yellow{color:#003366;font-size:2em}
+.contactbg li{line-height:1.5;}
+.contactbg li img{margin-right:10px;}
+/*新闻样式*/
+.news ul span {display:block;width:20px;height:20px;background:#FF9999;text-align:center;line-height:20px;float:left;font-size:14px;color:#fff;}
+.news ul a{display:block;float:left;margin-left:10px;width:70%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.news ul li{clear:both;height:40px;line-height:20px;padding:10px 0px;border:1px dashed #ccc;border-left:none;border-right:none;}
+.news strong{color:#faa;float:right;}
 /*页脚样式*/
 footer{background:#373d41;color:#fff;padding:10px;}
 footer ul{padding-top:15px;}
 footer ul li{line-height:30px;list-style:none;}
 footer ul img{margin-right:10px;}
+
+/*----------------------------------------------------------------------------------------------*/
+                                   /*list.html样式*/
+/*----------------------------------------------------------------------------------------------*/
+.biaoti{border-bottom:3px solid #036;color:#036;}
+.biaoti span,.list span{margin-right:10px;}
+.list ul{font-size:1em;margin:10px 0px 0px 30px;}
+.list li{line-height:1.8;}
+.red{color:#b20000;}
+/*选项卡样式*/
+.pro_tabs{font-size:1em;}
+.pro_tabs ul{}
+.tabs1 li{float:left;border-bottom:2px solid #44CBF9;}
+.tabone{background:#44CBF9; padding:10px 15px;text-align:center;border:1px solid #44CBF9;border-radius:5px 5px 0px 0px;color:#FFF;}
+.tabs1 .active{background:url(../images/cet.png) no-repeat center bottom;border-bottom:2px solid #44CBF9;}
+.tabs1 li a:focus{background:none;}
+.tabs1 li a:hover {background:#c1eefd;}
